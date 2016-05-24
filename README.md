@@ -13,12 +13,8 @@
         - stage-0：es2016的语法
         - es2015：es2015 的语法
    - extract-text-webpack-plugin：将 js import 的 css 文件导出为单独的文件
-
-### 本地服务器
+   - postcss：直接转换原生 css 的工具。
+       - autofix：为css添加兼容性前缀
 
 - webpack-dev-server：webpack 配套的开发服务器
     - **TODO** hot loader：热加载 react 组件，修改了组件无须刷新页面即可查看变换
-### 资源管理
-
-- postcss：可以直接转换原生 css。
-    - autofix：为css添加兼容性前缀
