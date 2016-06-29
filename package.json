@@ -12,8 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.1.0",
-    "react-redux": "^4.4.5"
+    "react": "^15.0.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
