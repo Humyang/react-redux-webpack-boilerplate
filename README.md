@@ -6,7 +6,7 @@
         - redux-devtools：redux 配套的开发者工具
             - redux-devtools-log-monitor：开发者工具可选模块
     - **TODO** redux 页面缓存：在 url 存储页面 state，关闭浏览次在此打开可以再次显示页面。
-    - **TODO** react-router,单页应用程序切换页面时更该 url 地址，重新输入此 url 可以记忆页面
+    - **TODO** react-router,单页应用程序切换页面时更该 url 地址，重新输入此 url 可以记忆页面 (开发模式)
 
 - webpack：打包工具
     - babel 使用最新的 JS 语法
