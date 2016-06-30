@@ -12,6 +12,7 @@ import '../css/index.css';
 
 require("file?name=index.html!../index.html");
 
+
 // let state = null;
 // try {
 //     state = JSON.parse(localStorage.getItem('store'));

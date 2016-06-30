@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// import InputBoard from './InputBoard.jsx';
 import {connect} from 'react-redux'
 
 class App extends React.Component {
@@ -14,7 +13,6 @@ class App extends React.Component {
     }
     render() {
         return <div id="container">
-                {/*<InputBoard ></InputBoard>*/}
             </div>;
     }
     componentDidMount() {

@@ -5,8 +5,7 @@ import rootReducer from '../reducer';
 // const enhaner = applyMiddleware(p1,p2,p3);
 const enhancer = compose(
     applyMiddleware(
-      thunkMiddleware, // lets us dispatch() functions
-      loggerMiddleware // neat middleware that logs actions
+      thunkMiddleware // lets us dispatch() functions
     )
     // DevTools.instrument(),
     // persistState(getDebugSessionKey())
