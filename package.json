@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack --progress --colors --display-modules",
-    "server": "webpack-dev-server --progress --colors --wacth --content-base='src'",
+    "server": "webpack-dev-server --progress --colors --wacth --content-base='src' --inline",
     "start": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +28,7 @@
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
+    "open-browser-webpack-plugin": "0.0.2",
     "postcss-import": "^8.1.2",
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",

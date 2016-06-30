@@ -7,6 +7,8 @@ var node_modules_dir = path.resolve(__dirname, 'node_modules');
 
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
+var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+
 /*监听css文件的变更*/
 var precss       = require('precss');
 var autoprefixer = require('autoprefixer');
@@ -65,6 +67,7 @@ var config = {
         new webpack.DefinePlugin({
             'process.env': { NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development') }
         }),
+        new OpenBrowserPlugin({ url: 'http://localhost:8080' })
         // new ExtractTextPlugin("css/[name].css")
     ]
 }
