@@ -1,7 +1,7 @@
 import {createStore,applyMiddleware,compose} from 'redux';
 import {persistState} from 'redux-devtools';
 import rootReducer from '../reducer';
-import DevTools from '../container/DevTools.jsx';
+import DevTools from '../containers/DevTools.jsx';
 
 import thunkMiddleware from 'redux-thunk'
 import createLogger from 'redux-logger'

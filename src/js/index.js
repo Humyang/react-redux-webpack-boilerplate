@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Root from './container/Root';
+import Root from './containers/Root';
 
 import configureStore from './store/configureStore';
 
