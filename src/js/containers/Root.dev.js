@@ -3,17 +3,17 @@ import { Provider } from 'react-redux';
 import App from './App.jsx';
 import DevTools from './DevTools.jsx';
 
-import {Router,Route,hashHistory} from 'react-router'
+import {Router} from 'react-router'
 
 import routes from '../routes.js'
 
 export default class Root extends Component {
   render() {
-    const { store } = this.props;
+    const { store ,history} = this.props;
     return (
       <Provider store={store}>
           <div style={{height:'100%'}}>
-                <Router history={hashHistory} routes={routes} />
+                <Router history={history} routes={routes} />
                 <DevTools />
           </div>
       </Provider>

@@ -6,28 +6,14 @@ import ReactDOM from 'react-dom';
 import Root from './containers/Root';
 
 import configureStore from './store/configureStore';
+import {browserHistory} from 'react-router'
+import { syncHistoryWithStore } from 'react-router-redux'
 
-// require('../css/index.css');
 import '../css/index.css';
 
 require("file?name=index.html!../index.html");
 
-
-// let state = null;
-// try {
-//     state = JSON.parse(localStorage.getItem('store'));
-//
-//     if(state.history === undefined){
-//         state.history = [];
-//     }
-//     console.log('获取已有 store');
-// } catch(e) {
-//     state = {
-//         content: [{text:''}],
-//         history:[]
-//     };
-//     console.log('初始化 store');
-// }
 const store = configureStore(/*state*/);
+const history = syncHistoryWithStore(browserHistory, store)
 
-ReactDOM.render(<Root store={store} ></Root>, document.getElementById('app'));
+ReactDOM.render(<Root store={store} history={history}/>, document.getElementById('app'));

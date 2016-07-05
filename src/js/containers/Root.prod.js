@@ -6,10 +6,10 @@ import routes from '../routes.js'
 
 export default class Root extends Component {
   render() {
-    const { store } = this.props;
+    const { store,history } = this.props;
     return (
       <Provider store={store}>
-        <Router history={hashHistory} routes={routes} />
+        <Router history={history} routes={routes} />
       </Provider>
     );
   }
