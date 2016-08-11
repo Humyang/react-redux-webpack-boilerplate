@@ -13,7 +13,7 @@ class App extends React.Component {
     }
     render() {
         return <div id="container">
-            <li><Link to="/secondview">to secondview</Link></li>
+            {/*<li><Link to="/secondview">to secondview</Link></li>*/}
             {this.props.children}
             </div>;
     }

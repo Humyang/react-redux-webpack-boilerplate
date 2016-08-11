@@ -1,0 +1,7 @@
+.main-board{
+    background-color: #649c8f;
+    height: 800px;
+    width: 450px;
+    overflow: auto;
+    position: relative;
+}

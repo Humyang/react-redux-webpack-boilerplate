@@ -9,6 +9,7 @@
         - react-router-redux：使 redux 可以和 react-router 共同使用，变更 state 时可以同时改变 url 地址。
     - **TODO** redux 页面缓存：在 url 存储页面 state，关闭浏览次在此打开可以再次显示页面。 (开发模式)
     - react-router,单页应用程序切换页面时更该 url 地址，重新输入此 url 可以记忆页面。
+    - server render:服务端渲染，提升首屏幕加载速度
 
 
 - webpack：打包工具
