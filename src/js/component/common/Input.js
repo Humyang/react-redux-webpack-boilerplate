@@ -2,8 +2,7 @@ import React, { PropTypes } from 'react'
 
 import classnames from 'classnames'
 
-import '../../../css/component/common/Input.css'
-
+import './Input.css'
 const Input = (props) => {
 
 

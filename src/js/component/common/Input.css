@@ -6,6 +6,9 @@
     border: 0;
     border-radius: 3px;
     font-size: 20px;
+    /*width: 95%;*/
+    /*margin: 0 auto;*/
+    border: 1px solid #848484;
 }
 .input-body {
     width: 100%;

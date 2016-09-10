@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 
 // require('../../../css/component/common/MainBoard.css')
 
-import '../../../css/component/common/MainBoard.css'
+import './MainBoard.css'
 
 class MainBoard extends React.Component {
 
